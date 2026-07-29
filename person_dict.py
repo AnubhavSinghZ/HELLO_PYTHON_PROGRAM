@@ -15,4 +15,16 @@ fav_num={
     "Abhishek":18,
     "Aman":45
  }
-print(f"The Favorite Number of Person: {fav_num}")
+for name, number in fav_num.items():
+    print(f"{name}'s favorite number is {number}.")
+
+# Polling from friends for data
+fav_num
+num_friends=int(input("How many friends are you polling?"))
+for i in range(num_friends):
+    name=input(f"\nEnter name for friend {i+1}").strip().title()
+    num=int(input(f"Enter {name}'s fav number"))
+    fav_num[name]=number
+print("\n___Poll Result___")
+for name, number in fav_num.items():
+    print(f"{name}'s fav number is {num}")
