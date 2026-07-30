@@ -7,7 +7,7 @@ ax=fig.gca()
 
 t= np.linspace(0,20,1000)
 x= np.sin(t)*np.exp(t/10)
-y= mp.cos(t)*np.exp(t/10)
+y= np.cos(t)*np.exp(t/10) 
 z=t
 ax.plot(x,y,z,label="Parametric Spiral", color="purple")
 ax.set_title("3D Space Trajectory")
