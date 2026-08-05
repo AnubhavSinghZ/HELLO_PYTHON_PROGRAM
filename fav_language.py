@@ -12,3 +12,5 @@ for name in fav_lang.keys():
     if name in friends:
         languages=fav_lang[name].title()
         print(f"\t{name.title()}, I see you love C")
+    if "erin" not in fav_lang:
+        print("Erin, please take our poll")
