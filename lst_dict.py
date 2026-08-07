@@ -18,6 +18,13 @@ monkeys=[]
 for monkey_number in range(30):
     new_monkeys={'color': "green", "points": 5, "speed": "slow"}
     monkeys.append(new_monkeys)
+for monkey in monkeys[:3]:
+    if monkey['color']=="green":
+        monkey["color"]='yellow'
+        monkey["speed"]= "medium"
+        monkey['points']=10        
+
+
 # Show the first 5 monkeys
 for monkey in monkeys[:5]:
     print(monkey)
