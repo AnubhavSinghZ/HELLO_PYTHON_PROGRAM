@@ -1,6 +1,11 @@
-prompt="\n Tell me something and I will repeat it back to you"
-prompt+="\nenter 'quit' to end the program"
+prompt="Tell me something"
+prompt+="\n Enter 'quit' to leave the chat"
 msg =""
-while msg !='quit':
+while msg != 'quit':
     msg=input(prompt)
     print(msg)
+
+
+# When a user give any messege to this in terminal the code will run until then the user is not giving the output as 'quit'
+
+# NOTE this '' is only for highlighting use this (quit) to quit
