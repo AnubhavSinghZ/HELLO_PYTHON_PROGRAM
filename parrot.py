@@ -1,3 +1,5 @@
+# User will give input in this program
+
 prompt="Tell me something"
 prompt+="\n Enter 'quit' to leave the chat"
 msg =""
