@@ -1,0 +1,14 @@
+# A movie theater charge different price for different ages
+
+ticket="Different tickets prices"
+ticket+="\n What is your age?"
+
+while True:
+    age=int(input(ticket))
+
+    if age<3:
+        print("Free Ticket")
+    elif age<12:
+        print("The Ticket price is $10")
+    else:
+        print("the ticket price is $15")
