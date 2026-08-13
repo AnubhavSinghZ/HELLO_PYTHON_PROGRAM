@@ -1,0 +1,18 @@
+
+
+unconfirmed_users=['alice', 'brain', 'candace']
+confirmed_users=[]
+
+#verify each user until there are no more unconfirmed user.
+# move each vaerified user into the list of confirmed user.
+while confirmed_users:
+    current_user=unconfirmed_users.pop()
+
+    print(f"Verifying user: {current_user.title()}")
+    confirmed_users.append(current_user)
+
+# Display all the confirmed user
+
+print("\nThe following users have been confirmed:")
+for confirmed_user in confirmed_users:
+    print(confirmed_user.title())
