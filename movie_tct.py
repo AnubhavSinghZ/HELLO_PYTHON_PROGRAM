@@ -13,3 +13,6 @@ while True:
     else:
         print("the ticket price is $15")
 
+# This program is written using conditional statement.
+
+
