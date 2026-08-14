@@ -1,6 +1,7 @@
 # Start with user that need to be verified.
 # and an empty list to hold confirmed users.
 
+
 unconfirmed_users=['alice', 'brain', 'candace']
 confirmed_users=[]
 
