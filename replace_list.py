@@ -9,3 +9,7 @@ while 'cat' in pets:
     pets.remove('cat')
 
 print(pets)
+
+Output:
+['dog', 'lion', 'cat', 'cow', 'crow', 'cat']
+['dog', 'lion', 'cow', 'crow']
