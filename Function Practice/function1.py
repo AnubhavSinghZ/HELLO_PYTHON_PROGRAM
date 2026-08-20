@@ -1,8 +1,5 @@
-def calc_sum():
-    sub=a+b
-    print(sum)
-    return sum
-a=5
-b=10
-sum= a+b
+
+def cal_num(a,b):
+    return a+b
+sum = cal_num(2,5)
 print(sum)
