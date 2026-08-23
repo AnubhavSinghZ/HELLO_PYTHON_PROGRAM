@@ -1,5 +1,5 @@
 def add(a,b):
-    return(a+b, a-b)
+    return(a+b)
 
 a=50
 b=20
