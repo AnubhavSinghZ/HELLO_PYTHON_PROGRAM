@@ -1,6 +1,6 @@
-input_str='''Hello! "Now's &"'''
+input_str=input("Enter a string")
 punctuation = '''!()-[]{};:'"\,<>./?@#$%^&*'''
-str=input(str)
+
 
 cleaned_str = ""
 for char in input_str:
