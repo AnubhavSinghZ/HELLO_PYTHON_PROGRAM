@@ -8,3 +8,4 @@ for char in input_str:
         cleaned_str += char
 print(f"String of the input_str: {input_str}")
 print(f"String after removing the punctuation:{cleaned_str}")
+
