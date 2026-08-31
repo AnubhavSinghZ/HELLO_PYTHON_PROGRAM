@@ -19,4 +19,3 @@ def calculate_total(price, tax_rate):
 # Call the function and print the result
 final_price = calculate_total(100, 0.08)
 print(final_price)
-print(final_price)
