@@ -1,3 +1,11 @@
+# Creating CLass
+class Student:
+   name="Krish Kapoor"
+# Creating Object
+s1=Student()
+print(s1.name)
+
+
 class MyClass:
     x=5
 p1=MyClass()
