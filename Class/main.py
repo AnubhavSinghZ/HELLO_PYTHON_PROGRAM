@@ -3,8 +3,8 @@ class Student:
    name="Krish Kapoor"
 # Creating Object (instance)
 s1=Student()
-print(s1.name)
-
+print(s1.name) # this will give output with name variable
+print(s1) # Object at this
 
 class MyClass:
     x=7
