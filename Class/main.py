@@ -1,13 +1,13 @@
 # Creating CLass
 class Student:
    name="Krish Kapoor"
-# Creating Object
+# Creating Object (instance)
 s1=Student()
 print(s1.name)
 
 
 class MyClass:
-    x=5
+    x=7
 p1=MyClass()
 p2=MyClass()
 p3=MyClass
