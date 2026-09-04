@@ -1,5 +1,7 @@
 # Creating CLass
 class Student:
+   def __init__(self):  #constructor name initialization
+      print("Adding new students name")
    name="Krish Kapoor"
 # Creating Object (instance)
 s1=Student()
