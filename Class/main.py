@@ -2,11 +2,12 @@
 class Student:
    def __init__(self):  #constructor name initialization
       print("Adding new students name")
+      print(self) # this will print the self
    name="Krish Kapoor"
 # Creating Object (instance)
 s1=Student()
 print(s1.name) # this will give output with name variable
-print(s1) # Object at this
+print(s1) # Object at this and it is same as self as of now
 
 class MyClass:
     x=7
