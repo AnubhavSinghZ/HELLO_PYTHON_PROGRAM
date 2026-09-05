@@ -7,3 +7,7 @@ s1= Student("Karan", 99)
 s2= Student("Arjun", 100)
 print(f"{s1.name} and his marks is {s1.marks}")
 print(f"{s2.name} and his marks is {s2.marks}")
+
+#print(s1.name,s1.marks) Karan,99
+#print(s2.name,s2.marks)  Arjun,100
+# We can use this type to show the output directly
