@@ -12,4 +12,4 @@ s1= Studnet("Karan", [99,99,99])
 s1.get_avg()
 
 s1.name="Iron Man"  # from here we can directly change the value of attribute
-s1.get_avg()
+s1.get_avg()  # it will give the change value which has been changed in upperline
