@@ -9,4 +9,4 @@ class Studnet:
         print("Hi", self.name,"Your average marks is:", sum/3)
 
 s1= Studnet("Karan", [99,99,99])
-print(s1.name,s1.marks) 
+s1.get_avg()
