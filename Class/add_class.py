@@ -18,7 +18,7 @@ calc = Calculator(10, 5)
 print("The sum is:", calc.add())  # Output: The sum is: 15
 
 
-
+#2 Second Method
 
 class Distance:
     def __init__(self, meters):
