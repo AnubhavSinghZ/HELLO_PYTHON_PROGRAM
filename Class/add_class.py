@@ -1,3 +1,6 @@
+#1 first method
+
+
 class Calculator:
     def __init__(self, num1, num2):
         # Initializing the object's attributes
