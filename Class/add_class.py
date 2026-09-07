@@ -11,5 +11,5 @@ class Calculator:
 # Instantiating the object
 calc = Calculator(10, 5)
 
-# Calling the function to get the sum
+
 print("The sum is:", calc.add())  # Output: The sum is: 15
